@@ -38,3 +38,5 @@ class Category extends Component {
 }
 
 export default Category;
+
+// Requesito 4: Desenvolvido por João Victor e Renan Aizawa.

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Categorias from './pages/Category';
+import Category from './pages/Category';
 
 class App extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
         <p data-testid="home-initial-message">
           Digite algum termo de pesquisa ou escolha uma categoria.
         </p>
-        <Categorias />
+        <Category />
       </div>
     );
   }
