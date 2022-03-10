@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <p>oi</p>
-  );
+class App extends React.Component {
+  render() {
+    return (
+
+      <p data-testid="home-initial-message">
+        Digite algum termo de pesquisa ou escolha uma categoria.
+      </p>
+
+    );
+  }
 }
 
 export default App;
