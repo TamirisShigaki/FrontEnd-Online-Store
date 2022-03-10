@@ -14,8 +14,8 @@ class Category extends Component {
   }
 
   fetchCategories = async () => {
-    const result = await getCategories();
-    this.setState({ result });
+    const categories = await getCategories();
+    this.setState({ categories });
   }
 
   render() {
@@ -25,9 +25,13 @@ class Category extends Component {
         <h5>
           Lista de Categorias
         </h5>
-        {
-
-        }
+        <div>
+          {categories.map(({ id, name }) => (
+            <button type="button" key={ id } data-testid="category">
+              { name }
+            </button>
+          ))}
+        </div>
       </div>
     );
   }
