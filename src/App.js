@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import Rotas from './Rotas';
+import Rotas from './Components/Rotas';
 import './App.css';
-import Category from './pages/Category';
 
 class App extends React.Component {
   render() {
-    return (    
+    return (
       <BrowserRouter>
         <Rotas />
       </BrowserRouter>
