@@ -1,14 +1,14 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Rotas from './Rotas';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
-
-      <p data-testid="home-initial-message">
-        Digite algum termo de pesquisa ou escolha uma categoria.
-      </p>
-
+      <BrowserRouter>
+        <Rotas />
+      </BrowserRouter>
     );
   }
 }
