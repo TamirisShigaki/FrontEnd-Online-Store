@@ -34,3 +34,4 @@ export default Home;
 
 // Requisito 1 - Tamiris Shigaki, Hanna Bacelar, João Victor
 // Requisito 3 - Hanna Bacelar
+// conflitos de merge feito em grupo
