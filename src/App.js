@@ -1,16 +1,15 @@
 import React from 'react';
-import CardList from './Components/CardList';
+import { BrowserRouter } from 'react-router-dom';
+import Rotas from './Rotas';
 import './App.css';
+import Category from './pages/Category';
 
 class App extends React.Component {
   render() {
-    return (
-      <>
-        <p data-testid="home-initial-message">
-          Digite algum termo de pesquisa ou escolha uma categoria.
-        </p>
-        <CardList />
-      </>
+    return (    
+      <BrowserRouter>
+        <Rotas />
+      </BrowserRouter>
     );
   }
 }
