@@ -13,3 +13,10 @@ export async function getProductsFromCategoryAndQuery(categoryId, query) {
 }
 
 // Requisito 1: Renan e Eduardo;
+
+export async function getProductsFromQuery(query) {
+  const queryURL = ` https://api.mercadolibre.com/sites/MLB/search?q=${query}`;
+  const response = await fetch(queryURL);
+  const result = await response.json();
+  return result;
+}
