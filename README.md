@@ -15,4 +15,4 @@ Projeto em grupo com:
 * <a href="https://github.com/RenanAizawa" target="_blank" rel="external"><p><strong>Renan Aizawa</strong></p></a>
 
 
-Desenvolvido na Trybe, onde tive que desenvolveruma aplicação em `React`, de uma loja online, consumindo dados da `API do Mercado Livre`. Também utilizamos metodologias de desenvolvimento ágil (`Scrum e Kanban`).
+Desenvolvido na Trybe, onde tive que desenvolver uma aplicação em `React`, de uma loja online, consumindo dados da `API do Mercado Livre`. Também utilizamos metodologias de desenvolvimento ágil (`Scrum e Kanban`).
